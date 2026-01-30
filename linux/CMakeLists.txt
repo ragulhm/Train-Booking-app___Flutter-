@@ -10,7 +10,7 @@ set(BINARY_NAME "trainapp")
 set(APPLICATION_ID "com.example.trainapp")
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
-# versions of CMake.
+
 cmake_policy(SET CMP0063 NEW)
 
 # Load bundled libraries from the lib/ directory relative to the binary.
